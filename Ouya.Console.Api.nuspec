@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Ouya.Console.Api</id>
+    <version>1.0.9</version>
+    <title>Ouya.Console.Api</title>
+    <authors>KonajuGames</authors>
+    <owners>Monkey By Monkey</owners>
+    <licenseUrl>https://raw.github.com/KonajuGames/ouya-csharp/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/KonajuGames/ouya-csharp</projectUrl>
+    <iconUrl>http://asset.ouya.tv/OUYA_Icon_Black_thumb.png</iconUrl>
+    <description>C# bindings for the OUYA Development Kit.</description>
+    <summary>C# bindings for the OUYA Development Kit.</summary>
+  </metadata>
+  <files>
+    <file src="..\Ouya.Console.Api\bin\$configuration$\Ouya.Console.Api.dll" target="lib\net40" />
+  </files>
+</package>
